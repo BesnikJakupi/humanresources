@@ -1,0 +1,25 @@
+@media print {
+		 header,footer { 
+			display: none; 
+		}
+		html, body {
+      height:100vh; 
+      margin: 0 !important; 
+      padding: 0 !important;
+      overflow: hidden;
+    }
+		#nvv{
+			visibility: hidden;
+		  } 
+		  
+		  /* style sheet for print goes here */
+		  #doPrintbtn {
+			visibility: hidden!important;
+		  } 
+		  #submit {
+			visibility: hidden!important;
+		  }#backback {
+			visibility: hidden!important;
+		  }
+		 
+}

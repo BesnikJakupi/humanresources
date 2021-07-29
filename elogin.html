@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Пријава</title>
+	<link rel="stylesheet" type="text/css" href="stylelogin.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="Content-Language" content="mk">
+</head>
+<body>
+	<header>
+		<nav>
+			<h1></h1>
+			<ul id="navli">
+				<li><a class="homeblack" href="index.html">Почетна</a></li>
+				<li><a class="homered" href="elogin.html">Работник пријава</a></li>
+				<li><a class="homeblack" href="alogin.html">Админ пријава</a></li>
+				
+			</ul>
+		</nav>
+	</header>
+	<div class="divider"></div>
+
+	<div class="loginbox">
+    <img src="assets/avatar.png" class="avatar">
+        <h1>Пријавете се</h1>
+        <form action="process/eprocess.php" method="POST">
+            <p>Емаил</p>
+            <input type="text" name="mailuid" placeholder="Enter Email Address" required="required">
+            <p>Лозинка</p>
+            <input type="password" name="pwd" placeholder="Enter Password" required="required">
+            <input type="submit" name="login-submit" value="Пријава">
+           
+        </form>
+        
+    </div>
+			
+			
+</body>
+</html>
